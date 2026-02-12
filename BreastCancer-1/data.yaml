@@ -1,0 +1,13 @@
+names:
+- '0'
+- '1'
+nc: 2
+roboflow:
+  license: CC BY 4.0
+  project: breastcancer-rvcxu-0md8g
+  url: https://universe.roboflow.com/study-rjibi/breastcancer-rvcxu-0md8g/dataset/1
+  version: 1
+  workspace: study-rjibi
+test: ../test/images
+train: ../train/images
+val: ../valid/images
