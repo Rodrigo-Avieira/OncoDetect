@@ -110,7 +110,7 @@ st.markdown('<div class="sub-title">Capstone Project: Detecção automática de 
 
 # --- CARREGAR MODELO ---
 try:
-    model = YOLO('runs/detect/train/weights/best.pt')
+    model = YOLO('best.pt')
 except:
     st.error("Erro Crítico: Modelo 'best.pt' não encontrado.")
     st.stop()
